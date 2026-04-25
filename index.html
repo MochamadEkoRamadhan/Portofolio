@@ -1,0 +1,731 @@
+﻿<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mochamad Eko Ramadhan - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-center">
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-close"><button class="nav-close-btn" id="navClose" aria-label="Close menu">Close</button></li>
+        <li><a href="#home"><i class="fas fa-house"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="fas fa-user"></i><span>About</span></a></li>
+        <li><a href="#projects"><i class="fas fa-briefcase"></i><span>Projects</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        IoT Developer
+      </div>
+      <h1 class="hero-title">Mochamad Eko Ramadhan</h1>
+      <p class="hero-subtitle">Electronics Engineering</p>
+      <p class="hero-desc">
+       Graduate in Electrical Engineering (Electronics concentration) from Politeknik Negeri Malang with 
+       hands-on experience from multiple industrial internships. Passionate about Internet of Things (IoT) 
+       development, electronic systems, microcontrollers, and PLC programming, with a strong interest in 
+       improving industrial efficiency.
+      </p>
+      <div class="hero-highlights">
+        <span class="hero-pill">IoT Developer</span>
+        <span class="hero-pill">PLC</span>
+        <span class="hero-pill">Drafter</span>
+      </div>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket" aria-hidden="true"></i>
+          <span>View Projects</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-animation">
+        <img src="https://ekizr.com/Animation1.gif" alt="Developer Animation" width="400" height="300" decoding="async" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Section -->
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-number">11+</div>
+      <div class="stat-label">Projects Completed</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">5+</div>
+      <div class="stat-label">IoT Systems</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">2025</div>
+      <div class="stat-label">Graduate Year</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-left">
+        <div class="about-image">
+          <img src="4x6.jpg" alt="Mochamad Eko Ramadhan" width="350" height="525" loading="lazy" decoding="async">
+        </div>
+      </div>
+      <div class="about-right">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-desc">
+          Graduate in Electrical Engineering (Electronics concentration) from Politeknik Negeri Malang with hands-on experience from multiple industrial internships. Passionate about Internet of Things (IoT) development, electronic systems, microcontrollers, and PLC programming, with a strong interest in improving industrial efficiency.
+        </p>
+        <blockquote class="about-quote">
+          "Transforming ideas into functional IoT solutions that make a real difference."
+        </blockquote>
+        <div class="about-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://drive.google.com/file/d/1Nf9ioQKXw6nMhZQZaizjcvtvR1xnvyT4/view?usp=sharing" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+            <i class="fas fa-download" aria-hidden="true"></i>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    <div class="projects-header">
+      <h2 class="section-title">Portfolio Showcase</h2>
+      <p class="section-subtitle">Explore my journey through projects and technical expertise</p>
+
+      <div class="mobile-notice" data-mobile-notice hidden role="note" aria-live="polite">
+        <div class="mobile-notice__icon" aria-hidden="true">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <p class="mobile-notice__text">
+          <strong>Info:</strong> Untuk pengalaman yang lebih baik, disarankan menggunakan tampilan desktop.
+        </p>
+        <button type="button" class="mobile-notice__close" data-mobile-notice-close aria-label="Tutup info">
+          &times;
+        </button>
+      </div>
+    </div>
+
+    <div class="projects-showcase">
+      <div class="showcase-item">
+        <div class="showcase-icon">
+          <i class="fas fa-project-diagram"></i>
+        </div>
+        <h3>Projects</h3>
+        <p>Innovative IoT solutions crafted</p>
+        <div class="showcase-number">11+</div>
+      </div>
+
+      <div class="showcase-item">
+        <div class="showcase-icon">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <h3>Experience</h3>
+        <p>Years of continuous learning</p>
+        <div class="showcase-number">2+</div>
+      </div>
+
+      <div class="showcase-item">
+        <div class="showcase-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>Tech Stack</h3>
+        <p>Modern development tools</p>
+        <div class="showcase-number">5+</div>
+      </div>
+    </div>
+
+    <!-- Featured Projects -->
+    <div class="featured-projects">
+      <h3>Featured Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="1.png" alt="IoT Water Meter Monitoring" width="320" height="200" loading="lazy" decoding="async">
+          </div>
+          <div class="project-content">
+            <h4>IoT-Based PDAM Water Meter Monitoring</h4>
+            <p>Real-time water usage monitoring system with ESP32, web dashboard, and data analytics.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Web</span>
+              <span class="tag">Spreadsheet</span>
+            </div>
+            <button class="project-btn" onclick="openModal('modal1')">View Details</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="3.png" alt="Automatic Water Filling Control" width="320" height="200" loading="lazy" decoding="async">
+          </div>
+          <div class="project-content">
+            <h4>Automatic Water Filling Control</h4>
+            <p>ESP32 based automated water filling system with sensor integration and control logic.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">Sensors</span>
+              <span class="tag">Automation</span>
+            </div>
+            <button class="project-btn" onclick="openModal('modal2')">View Details</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="4.png" alt="AC Motor Speed Control" width="320" height="200" loading="lazy" decoding="async">
+          </div>
+          <div class="project-content">
+            <h4>AC Motor Speed Control</h4>
+            <p>Variable frequency drive system for AC motor speed control with PLC integration.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">Control</span>
+              <span class="tag">Electronics</span>
+            </div>
+            <button class="project-btn" onclick="openModal('modal3')">View Details</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="2.png" alt="Automatic Production Counter" width="320" height="200" loading="lazy" decoding="async">
+          </div>
+          <div class="project-content">
+            <h4>Automatic Production Counter</h4>
+            <p>ESP32-based IoT production counter with Telegram bot integration and Google Sheets sync.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Telegram</span>
+            </div>
+            <button class="project-btn" onclick="openModal('modal4')">View Details</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="5.png" alt="My Personal Tracker" width="320" height="200" loading="lazy" decoding="async">
+          </div>
+          <div class="project-content">
+            <h4>My Personal Tracker</h4>
+            <p>Personal finance and job application tracking web app with task management.</p>
+            <div class="project-tags">
+              <span class="tag">Web App</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">LocalStorage</span>
+            </div>
+            <button class="project-btn" onclick="openModal('modal5')">View Details</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="6.png" alt="IoT Oyster Mushroom Monitoring" width="320" height="200" loading="lazy" decoding="async">
+          </div>
+          <div class="project-content">
+            <h4>IoT Oyster Mushroom Monitoring</h4>
+            <p>ESP32-based environmental monitoring system for oyster mushroom cultivation with real-time dashboard and alert notifications.</p>
+            <div class="project-tags">
+              <span class="tag">ESP32</span>
+              <span class="tag">IoT</span>
+              <span class="tag">Sensors</span>
+              <span class="tag">Agriculture</span>
+            </div>
+            <button class="project-btn" onclick="openModal('modal6')">View Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MODAL 1 ===== -->
+<div id="modal1" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal1Title" aria-hidden="true">
+  <div class="modal-content" tabindex="-1">
+    <button type="button" class="close" onclick="closeModal('modal1')" aria-label="Close modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal1Title">IoT-Based PDAM Water Meter Monitoring</h2>
+      
+      <!-- TAB NAVBAR -->
+      <div class="modal-tabs" role="tablist" aria-label="Project details tabs">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true">
+          <i class="fas fa-info-circle"></i> Overview
+        </button>
+        <button class="tab-btn" data-tab="features" role="tab" aria-selected="false">
+          <i class="fas fa-star"></i> Features
+        </button>
+        <button class="tab-btn" data-tab="docs" role="tab" aria-selected="false">
+          <i class="fas fa-book"></i> Documentation
+        </button>
+      </div>
+    </div>
+
+    <!-- TAB CONTENT -->
+    <div class="modal-body">
+      <div class="tab-content active" data-tab="overview">
+        <div class="overview-card">
+          <p>The IoT Waterflow Monitor dashboard is designed to track water usage in real time with a modern and informative interface. Key information such as customer ID, flow rate, total volume, and usage charts is clearly displayed in a card-based UI that is easy to read and understand. The system also includes reporting and data export features that let users send data to spreadsheets, view stored records, and display daily or monthly summaries. This makes water usage monitoring more practical, transparent, and digitally manageable.</p>
+        </div>
+      </div>
+
+      <div class="tab-content" data-tab="features">
+        <div class="features-card">
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Real-time water usage monitoring</li>
+          <li><i class="fas fa-check-circle"></i> Interactive dashboard with charts</li>
+          <li><i class="fas fa-check-circle"></i> Export data to spreadsheets</li>
+          <li><i class="fas fa-check-circle"></i> Daily and monthly reports</li>
+          <li><i class="fas fa-check-circle"></i> ESP32 IoT integration</li>
+          <li><i class="fas fa-check-circle"></i> Responsive web server</li>
+        </ul>
+        </div>
+      </div>
+
+      <div class="tab-content" data-tab="docs">
+        <div class="docs-grid">
+          <div class="doc-item">
+            <h4><i class="fas fa-code"></i> Technology</h4>
+            <p>ESP32, IoT, Web Server, JavaScript, HTML5, CSS3</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-database"></i> Database</h4>
+            <p>SPIFFS Flash Memory, Real-time Storage</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-chart-line"></i> Frontend</h4>
+            <p>Chart.js, Responsive Design, Interactive UI</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-cogs"></i> Special Features</h4>
+            <p>Real-time data sync, data persistence, auto-refresh</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <a href="https://github.com/username/proyek-pdam" target="_blank" class="github-link">
+        <i class="fab fa-github"></i> View on GitHub
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MODAL 2 ===== -->
+<div id="modal2" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal2Title" aria-hidden="true">
+  <div class="modal-content" tabindex="-1">
+    <button type="button" class="close" onclick="closeModal('modal2')" aria-label="Close modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal2Title">Automatic Water Filling Control</h2>
+      
+      <div class="modal-tabs" role="tablist" aria-label="Project details tabs">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true"><i class="fas fa-eye"></i> Overview</button>
+        <button class="tab-btn" data-tab="features" role="tab" aria-selected="false"><i class="fas fa-list"></i> Features</button>
+        <button class="tab-btn" data-tab="docs" role="tab" aria-selected="false"><i class="fas fa-book"></i> Documentation</button>
+      </div>
+    </div>
+    
+    <div class="modal-body">
+      <div class="tab-content active" data-tab="overview">
+        <div class="overview-card">
+          <p>This automatic water gallon filling dashboard is designed to make it easy to control and monitor the filling process. From the control menu, users can select 5-liter or 15-liter fill capacity, stop the filling with a stop button, and calibrate sensors to keep measurements accurate. All functions are presented in a modern, clean glassmorphism interface. The dashboard also provides real-time monitoring information. Data such as current water volume, cost estimates, daily usage totals, and revenue are shown clearly, with interactive line charts to visualize trends. Additional features like a data reset button help manage records, making the system more efficient and transparent.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="features">
+        <div class="features-card">
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Automatic filling control with 5L and 15L capacity</li>
+          <li><i class="fas fa-check-circle"></i> Stop button to halt filling</li>
+          <li><i class="fas fa-check-circle"></i> Sensor calibration for accurate measurements</li>
+          <li><i class="fas fa-check-circle"></i> Modern glassmorphism-style dashboard</li>
+          <li><i class="fas fa-check-circle"></i> Real-time water volume monitoring</li>
+          <li><i class="fas fa-check-circle"></i> Interactive line chart for trend visualization</li>
+          <li><i class="fas fa-check-circle"></i> Automatic cost and revenue estimation</li>
+          <li><i class="fas fa-check-circle"></i> Data reset button for record management</li>
+        </ul>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="docs">
+        <div class="docs-grid">
+          <div class="doc-item">
+            <h4><i class="fas fa-cog"></i> Hardware</h4>
+            <p>ESP32, HC-SR04 ultrasonic sensor, relay module, 12V water pump</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-code"></i> Backend</h4>
+            <p>Arduino IDE, embedded C++, HTTP REST protocol</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-palette"></i> Frontend</h4>
+            <p>HTML5, CSS3, JavaScript, Chart.js for interactive charts</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-database"></i> Database</h4>
+            <p>EEPROM Preferences (internal storage) for data persistence</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <a href="https://github.com/username/proyek-air" target="_blank" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MODAL 3 ===== -->
+<div id="modal3" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal3Title" aria-hidden="true">
+  <div class="modal-content" tabindex="-1">
+    <button type="button" class="close" onclick="closeModal('modal3')" aria-label="Close modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal3Title">AC Motor Speed Control</h2>
+      
+      <div class="modal-tabs" role="tablist" aria-label="Project details tabs">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true"><i class="fas fa-eye"></i> Overview</button>
+        <button class="tab-btn" data-tab="features" role="tab" aria-selected="false"><i class="fas fa-list"></i> Features</button>
+        <button class="tab-btn" data-tab="docs" role="tab" aria-selected="false"><i class="fas fa-book"></i> Documentation</button>
+      </div>
+    </div>
+    
+    <div class="modal-body">
+      <div class="tab-content active" data-tab="overview">
+        <div class="overview-card">
+          <p>This ESP32 WebServer system for controlling a meatball maker motor lets users adjust motor speed precisely using a TRIAC-based dimmer slider with zero-crossing detection. With IR sensor integration to read motor RPM and an E18 sensor to count meatballs, the system can monitor production in real time through a modern, responsive web interface. Through the web dashboard, users can view RPM charts, produced meatball counts, and automatic revenue estimates. Additional features such as PID parameter settings (Kp, Ki, Kd), configuration storage, and a counter reset make the system flexible and easy to use. With an interactive Chart.js interface, production monitoring becomes more practical, transparent, and efficient.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="features">
+        <div class="features-card">
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Motor speed control with TRIAC dimmer slider</li>
+          <li><i class="fas fa-check-circle"></i> Zero-crossing detection for high precision</li>
+          <li><i class="fas fa-check-circle"></i> Real-time RPM reading with IR sensor</li>
+          <li><i class="fas fa-check-circle"></i> Automatic meatball counting</li>
+          <li><i class="fas fa-check-circle"></i> Modern responsive web dashboard</li>
+          <li><i class="fas fa-check-circle"></i> Interactive RPM and production charts</li>
+          <li><i class="fas fa-check-circle"></i> PID parameter settings (Kp, Ki, Kd)</li>
+          <li><i class="fas fa-check-circle"></i> Automatic configuration storage</li>
+        </ul>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="docs">
+        <div class="docs-grid">
+          <div class="doc-item">
+            <h4><i class="fas fa-cog"></i> Hardware</h4>
+            <p>ESP32, 220V AC motor, TRIAC, IR sensor, E18 photoelectric sensor</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-code"></i> Backend</h4>
+            <p>Arduino IDE, embedded C++, PID algorithm, PWM control</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-palette"></i> Frontend</h4>
+            <p>HTML5, CSS3, JavaScript, Chart.js for production charts</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-wifi"></i> Communication</h4>
+            <p>ESP32 WebServer, HTTP protocol, JSON API for integration</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <a href="https://github.com/username/proyek-motor" target="_blank" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MODAL 4 ===== -->
+<div id="modal4" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal4Title" aria-hidden="true">
+  <div class="modal-content" tabindex="-1">
+    <button type="button" class="close" onclick="closeModal('modal4')" aria-label="Close modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal4Title">Automatic Production Counter</h2>
+      
+      <div class="modal-tabs" role="tablist" aria-label="Project details tabs">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true"><i class="fas fa-eye"></i> Overview</button>
+        <button class="tab-btn" data-tab="features" role="tab" aria-selected="false"><i class="fas fa-list"></i> Features</button>
+        <button class="tab-btn" data-tab="docs" role="tab" aria-selected="false"><i class="fas fa-book"></i> Documentation</button>
+      </div>
+    </div>
+    
+    <div class="modal-body">
+      <div class="tab-content active" data-tab="overview">
+        <div class="overview-card">
+          <p>This program is an ESP32-based IoT production counter system designed to count items passing a sensor, detect rejected items, and automatically display the total good items. Count data is stored safely in internal memory (Preferences), so it persists even after restarts. The system is also integrated with a Telegram bot, enabling users to monitor total items, rejects, and the ESP32 IP address directly via chat. In addition, it includes an interactive web dashboard that shows gauge charts and real-time trend charts using Chart.js. Users can add manual counts, reset the counter, and send data to Google Spreadsheet for further records and analysis. With a mix of local control and cloud integration, this system provides modern, transparent, and efficient production monitoring.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="features">
+        <div class="features-card">
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Automatic item counting with sensors</li>
+          <li><i class="fas fa-check-circle"></i> Real-time rejected item detection</li>
+          <li><i class="fas fa-check-circle"></i> Secure data storage in EEPROM/Preferences</li>
+          <li><i class="fas fa-check-circle"></i> Telegram bot integration for notifications</li>
+          <li><i class="fas fa-check-circle"></i> Web dashboard with gauge charts</li>
+          <li><i class="fas fa-check-circle"></i> Interactive item count trend charts</li>
+          <li><i class="fas fa-check-circle"></i> Sync to Google Spreadsheet</li>
+          <li><i class="fas fa-check-circle"></i> Manual count add and counter reset</li>
+        </ul>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="docs">
+        <div class="docs-grid">
+          <div class="doc-item">
+            <h4><i class="fas fa-cog"></i> Hardware</h4>
+            <p>ESP32, E18 photoelectric sensor, push button, status LED, relay</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-code"></i> Backend</h4>
+            <p>Arduino IDE, C++, Telegram API, Google Sheets API</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-palette"></i> Frontend</h4>
+            <p>HTML5, CSS3, JavaScript, Chart.js for data visualization</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-cloud"></i> Integration</h4>
+            <p>Telegram Bot API, Google Sheets API, HTTP requests</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <a href="https://github.com/username/proyek-produksi" target="_blank" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MODAL 5 ===== -->
+<div id="modal5" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal5Title" aria-hidden="true">
+  <div class="modal-content" tabindex="-1">
+    <button type="button" class="close" onclick="closeModal('modal5')" aria-label="Close modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal5Title">My Personal Tracker</h2>
+      
+      <div class="modal-tabs" role="tablist" aria-label="Project details tabs">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true"><i class="fas fa-eye"></i> Overview</button>
+        <button class="tab-btn" data-tab="features" role="tab" aria-selected="false"><i class="fas fa-list"></i> Features</button>
+        <button class="tab-btn" data-tab="docs" role="tab" aria-selected="false"><i class="fas fa-book"></i> Documentation</button>
+      </div>
+    </div>
+    
+    <div class="modal-body">
+      <div class="tab-content active" data-tab="overview">
+        <div class="overview-card">
+          <p>My Personal Tracker is a personal web app designed to help users manage finances, track job application status, and organize daily tasks with ease. With a modern, minimal, and responsive interface, users can view income, expenses, and balances across daily, weekly, or monthly periods, and track application progress through Reach Out, Interview, Accepted, and Rejected categories presented with intuitive colors and icons. The to-do list feature lets users record and monitor daily activities, while icon-based navigation makes it easy to switch between modules. My Personal Tracker delivers an efficient, structured, and pleasant experience, keeping personal finance, career tracking, and productivity more controlled and visual.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="features">
+        <div class="features-card">
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Finance dashboard with income and expense summary</li>
+          <li><i class="fas fa-check-circle"></i> Daily, weekly, and monthly period analysis</li>
+          <li><i class="fas fa-check-circle"></i> Job application status tracking (4 categories)</li>
+          <li><i class="fas fa-check-circle"></i> Color and icon visualization for each category</li>
+          <li><i class="fas fa-check-circle"></i> To-do list for daily task management</li>
+          <li><i class="fas fa-check-circle"></i> Minimal and responsive design</li>
+          <li><i class="fas fa-check-circle"></i> Icon-based navigation for quick access</li>
+          <li><i class="fas fa-check-circle"></i> Local data storage with LocalStorage</li>
+        </ul>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="docs">
+        <div class="docs-grid">
+          <div class="doc-item">
+            <h4><i class="fas fa-palette"></i> Frontend</h4>
+            <p>HTML5, CSS3, JavaScript, minimal and modern UI/UX design</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-database"></i> Storage</h4>
+            <p>LocalStorage API for local data storage</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-chart-line"></i> Features</h4>
+            <p>Financial analysis, application tracking, task management</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-mobile-alt"></i> Responsive</h4>
+            <p>Optimized for mobile, tablet, and desktop</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <a href="https://github.com/username/proyek-produksi" target="_blank" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MODAL 6 ===== -->
+<div id="modal6" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal6Title" aria-hidden="true">
+  <div class="modal-content" tabindex="-1">
+    <button type="button" class="close" onclick="closeModal('modal6')" aria-label="Close modal">&times;</button>
+
+    <div class="modal-header">
+      <h2 class="modal-title" id="modal6Title">IoT Oyster Mushroom Monitoring</h2>
+      
+      <div class="modal-tabs" role="tablist" aria-label="Project details tabs">
+        <button class="tab-btn active" data-tab="overview" role="tab" aria-selected="true"><i class="fas fa-eye"></i> Overview</button>
+        <button class="tab-btn" data-tab="features" role="tab" aria-selected="false"><i class="fas fa-list"></i> Features</button>
+        <button class="tab-btn" data-tab="docs" role="tab" aria-selected="false"><i class="fas fa-book"></i> Documentation</button>
+      </div>
+    </div>
+    
+    <div class="modal-body">
+      <div class="tab-content active" data-tab="overview">
+        <div class="overview-card">
+          <p>This ESP32-based IoT system is designed to monitor environmental conditions for oyster mushroom cultivation in real time. Using temperature, humidity, and CO2 sensors, the system collects data continuously and displays it on a responsive web dashboard. When environmental parameters exceed or fall below optimal thresholds, the system sends alert notifications to farmers, enabling quick adjustments. Historical data is stored for trend analysis, helping growers optimize their cultivation environment for maximum yield. This solution brings smart agriculture technology to mushroom farming, improving both efficiency and crop quality.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="features">
+        <div class="features-card">
+        <ul class="features-list">
+          <li><i class="fas fa-check-circle"></i> Real-time temperature and humidity monitoring</li>
+          <li><i class="fas fa-check-circle"></i> CO2 level tracking for optimal growth</li>
+          <li><i class="fas fa-check-circle"></i> Alert notifications when thresholds are breached</li>
+          <li><i class="fas fa-check-circle"></i> Interactive web dashboard with live gauges</li>
+          <li><i class="fas fa-check-circle"></i> Historical data logging and trend charts</li>
+          <li><i class="fas fa-check-circle"></i> ESP32 IoT integration with WiFi</li>
+          <li><i class="fas fa-check-circle"></i> Automated misting control based on humidity</li>
+          <li><i class="fas fa-check-circle"></i> Low-power mode for continuous operation</li>
+        </ul>
+        </div>
+      </div>
+      
+      <div class="tab-content" data-tab="docs">
+        <div class="docs-grid">
+          <div class="doc-item">
+            <h4><i class="fas fa-cog"></i> Hardware</h4>
+            <p>ESP32, DHT22 temperature/humidity sensor, CO2 sensor, relay module</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-code"></i> Backend</h4>
+            <p>Arduino IDE, embedded C++, HTTP REST protocol</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-palette"></i> Frontend</h4>
+            <p>HTML5, CSS3, JavaScript, Chart.js for trend visualization</p>
+          </div>
+          <div class="doc-item">
+            <h4><i class="fas fa-cloud"></i> Integration</h4>
+            <p>ESP32 WebServer, local network access, alert notifications</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-footer">
+      <a href="https://github.com/username/proyek-jamur" target="_blank" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+    </div>
+  </div>
+</div>
+  <section class="bottom-social">
+    <div class="container">
+      <div class="bottom-social-shell">
+        <div class="bottom-social-eyebrow">
+          <i class="fas fa-paper-plane"></i> Let's Connect
+        </div>
+        <h3>Get In Touch</h3>
+        <p class="bottom-social-intro">
+          Have a project in mind or want to collaborate? Reach out through any of these platforms and let's create something amazing together!
+        </p>
+        <div class="bottom-social-links">
+          <a href="https://linkedin.com/in/mochamad-eko-ramadhan" target="_blank" class="bottom-social-item linkedin" aria-label="LinkedIn">
+            <div class="bottom-social-icon">
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </div>
+            <div class="bottom-social-copy">
+              <strong>LinkedIn</strong>
+              <small>Professional Network</small>
+            </div>
+          </a>
+          <a href="https://github.com/MochamadEkoRamadhan" target="_blank" class="bottom-social-item github" aria-label="GitHub">
+            <div class="bottom-social-icon">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </div>
+            <div class="bottom-social-copy">
+              <strong>GitHub</strong>
+              <small>Code & Projects</small>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/eko_rmdhn20/" target="_blank" class="bottom-social-item instagram" aria-label="Instagram">
+            <div class="bottom-social-icon">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </div>
+            <div class="bottom-social-copy">
+              <strong>Instagram</strong>
+              <small>Daily Updates</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Mochamad Eko Ramadhan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
